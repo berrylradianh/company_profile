@@ -40,7 +40,7 @@
       <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
           <div class="px-4 w-60 max-w-full">
-            <a href="welcome" class="navbar-logo w-full block py-5">
+            <a href="/" class="navbar-logo w-full block py-5">
               <img
                 src="{{asset('assets/images/logo/logo.png')}}"
                 alt="logo"
@@ -99,9 +99,8 @@
                 <ul class="blcok lg:flex">
                   <li class="relative group">
                     <a
-                      href="/welcome"
+                      href="/"
                       class="
-                        ud-menu-scroll
                         text-base text-dark
                         lg:text-white
                         lg:group-hover:opacity-70
@@ -171,7 +170,7 @@
                       "
                     >
                       <a
-                        href=""
+                        href="/products/marbel-edu-games"
                         class="
                           block
                           text-sm text-body-color
@@ -184,7 +183,7 @@
                         Marbel - Educational Games
                       </a>
                       <a
-                        href=""
+                        href="/products/Marbel & Friends - Kids Games"
                         class="
                           block
                           text-sm text-body-color
@@ -197,7 +196,7 @@
                         Marbel & Friends - Kids Games
                       </a>
                       <a
-                        href=""
+                        href="/products/Riri-Story Books"
                         class="
                           block
                           text-sm text-body-color
@@ -210,7 +209,7 @@
                         Riri - Story Books
                       </a>
                       <a
-                        href=""
+                        href="/products/Kolak-Kids Songs"
                         class="
                           block
                           text-sm text-body-color
@@ -223,7 +222,7 @@
                         Kolak - Kids Songs
                       </a>
                       <a
-                        href=""
+                        href="/products/Kabi-Islamic Apps"
                         class="
                           block
                           text-sm text-body-color
@@ -236,7 +235,7 @@
                         Kabi - Islamic Apps
                       </a>
                       <a
-                        href=""
+                        href="/products/Marbel Junior - Merchandise & Licensing"
                         class="
                           block
                           text-sm text-body-color
@@ -249,7 +248,7 @@
                         Marbel Junior - Merchandise & Licensing
                       </a>
                       <a
-                        href=""
+                        href="/products/Keong Games - Entertainment Games"
                         class="
                           block
                           text-sm text-body-color
@@ -265,9 +264,8 @@
                   </li>
                   <li class="relative group">
                     <a
-                      href=""
+                      href="/news"
                       class="
-                        ud-menu-scroll
                         text-base text-dark
                         lg:text-white
                         lg:group-hover:opacity-70
@@ -927,8 +925,8 @@
     </section>
     <!-- ====== Blog Section End -->
 
-    <!-- ====== Footer Section Start -->
-    <footer
+   <!-- ====== Footer Section Start -->
+   <footer
       class="bg-black pt-20 lg:pt-[120px] relative z-10 wow fadeInUp"
       data-wow-delay=".15s"
     >
@@ -1026,7 +1024,7 @@
               <ul>
                 <li>
                   <a
-                    href="welcome"
+                    href="/"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1040,7 +1038,7 @@
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="/news"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1049,12 +1047,12 @@
                       mb-2
                     "
                   >
-                    Features
+                    News
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#about"
+                    href="/about"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1063,12 +1061,12 @@
                       mb-2
                     "
                   >
-                    About
+                    About Us
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#testimonials"
+                    href="/contact"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1077,7 +1075,7 @@
                       mb-2
                     "
                   >
-                    Testimonial
+                    Contact Us
                   </a>
                 </li>
               </ul>

@@ -17,40 +17,32 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/welcome', function () {
-    return view('welcome');
+Route::prefix('products') -> group(function(){
+    Route::get('marbel-edu-games',function(){
+        return redirect('https://www.educastudio.com/category/marbel-edu-games');
+    });
+
+    Route::get('Marbel & Friends - Kids Games',function(){
+        return redirect('https://www.educastudio.com/category/marbel-and-friends-kids-games');
+    });
+
+    Route::get('Riri-Story Books',function(){
+        return redirect('https://www.educastudio.com/category/riri-story-books');
+    });
+
+    Route::get('Kolak-Kids Songs',function(){
+        return redirect('https://www.educastudio.com/category/kolak-kids-songs');
+    });
+
+    Route::get('Kabi-Islamic Apps',function(){
+        return redirect('https://www.educastudio.com/category/kabi-islamic-books');
+    });
+
+    Route::get('Marbel Junior - Merchandise & Licensing',function(){
+        return redirect('https://www.educastudio.com/category/marbel-junior');
+    });
+
+    Route::get('Keong Games - Entertainment Games',function(){
+        return redirect('https://www.educastudio.com/category/keong-casual-games');
+    });
 });
-
-Route::get('/about', function(){
-    return view('about');
-});
-
-Route::get('/contact', function(){
-    return view('contact');
-});
-
-Route::get('/pricing', function(){
-    return view('pricing');
-});
-
-Route::get('/blog-grids', function(){
-    return view('blog-grids');
-});
-
-Route::get('/blog-details', function(){
-    return view('blog-details');
-});
-
-Route::get('/signup', function(){
-    return view('signup');
-});
-
-Route::get('/signin', function(){
-    return view('signin');
-});
-
-Route::get('/404', function(){
-    return view('404');
-});
-
-
