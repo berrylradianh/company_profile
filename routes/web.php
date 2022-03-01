@@ -78,4 +78,6 @@ Route::prefix('program') -> group(function(){
     });
 });
 
-Route::resource('contact', ContactController::class);
+Route::resource('contact', ContactController::class)->only([
+    'index'
+]);

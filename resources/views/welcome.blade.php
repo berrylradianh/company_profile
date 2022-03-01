@@ -400,7 +400,6 @@
                     <a
                       href="/contact"
                       class="
-                        ud-menu-scroll
                         text-base text-dark
                         lg:text-white
                         lg:group-hover:opacity-70
