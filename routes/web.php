@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +16,18 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('signin', function () {
+    return view('signup');
+});
+
+Route::get('signup', function () {
+    return view('signup');
+});
+
+Route::get('about', function () {
+    return redirect('https://www.educastudio.com/about-us');
 });
 
 Route::prefix('products') -> group(function(){
@@ -46,3 +59,23 @@ Route::prefix('products') -> group(function(){
         return redirect('https://www.educastudio.com/category/keong-casual-games');
     });
 });
+
+Route::get('news/{id?}', function ($id = '/educa-studio-berbagi-untuk-warga-sekitar-terdampak-covid-19') {
+    return redirect("https://www.educastudio.com/news" .$id);
+});
+
+Route::prefix('program') -> group(function(){
+    Route::get('karir',function(){
+        return redirect('https://www.educastudio.com/program/karir');
+    });
+
+    Route::get('magang',function(){
+        return redirect('https://www.educastudio.com/program/magang');
+    });
+
+    Route::get('kunjungan-industri',function(){
+        return redirect('https://www.educastudio.com/program/kunjungan-industri');
+    });
+});
+
+Route::resource('contact', ContactController::class);

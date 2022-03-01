@@ -336,7 +336,7 @@
                       "
                     >
                       <a
-                        href=""
+                        href="/program/karir"
                         class="
                           block
                           text-sm text-body-color
@@ -349,7 +349,7 @@
                         Karir
                       </a>
                       <a
-                        href=""
+                        href="/program/magang"
                         class="
                           block
                           text-sm text-body-color
@@ -362,7 +362,7 @@
                         Magang
                       </a>
                       <a
-                        href=""
+                        href="/program/kunjungan-industri"
                         class="
                           block
                           text-sm text-body-color
@@ -378,9 +378,8 @@
                   </li>
                   <li class="relative group">
                     <a
-                      href=""
+                      href="/about"
                       class="
-                        ud-menu-scroll
                         text-base text-dark
                         lg:text-white
                         lg:group-hover:opacity-70
@@ -399,7 +398,7 @@
                   </li>
                   <li class="relative group">
                     <a
-                      href=""
+                      href="/contact"
                       class="
                         ud-menu-scroll
                         text-base text-dark
