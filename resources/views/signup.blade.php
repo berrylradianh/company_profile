@@ -37,11 +37,11 @@
       <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
           <div class="px-4 w-60 max-w-full">
-            <a href="welcome" class="navbar-logo w-full block py-5">
+            <a href="/" class="navbar-logo w-full block py-5">
               <img
-                    src="{{asset('assets/images/logo/logo-white.svg')}}"
-                    alt="logo"
-                    class="w-full header-logo"
+                src="{{asset('assets/images/logo/logo.png')}}"
+                alt="logo"
+                class="w-full header-logo"
               />
             </a>
           </div>
@@ -96,9 +96,8 @@
                 <ul class="blcok lg:flex">
                   <li class="relative group">
                     <a
-                      href="/#home"
+                      href="/"
                       class="
-                        ud-menu-scroll
                         text-base text-dark
                         lg:text-white
                         lg:group-hover:opacity-70
@@ -112,90 +111,6 @@
                       "
                     >
                       Home
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="/#about"
-                      class="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="/#pricing"
-                      class="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="/#team"
-                      class="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                    >
-                      Team
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="/#contact"
-                      class="
-                        ud-menu-scroll
-                        text-base text-dark
-                        lg:text-white
-                        lg:group-hover:opacity-70
-                        lg:group-hover:text-white
-                        group-hover:text-primary
-                        py-2
-                        lg:py-6 lg:inline-flex lg:px-0
-                        flex
-                        mx-8
-                        lg:mr-0 lg:ml-7
-                        xl:ml-12
-                      "
-                    >
-                      Contact
                     </a>
                   </li>
                   <li class="relative group submenu-item">
@@ -228,7 +143,7 @@
                         after:mt-[-2px]
                       "
                     >
-                      Pages
+                      Products
                     </a>
                     <div
                       class="
@@ -252,7 +167,7 @@
                       "
                     >
                       <a
-                        href="about"
+                        href="/products/marbel-edu-games"
                         class="
                           block
                           text-sm text-body-color
@@ -262,10 +177,10 @@
                           px-4
                         "
                       >
-                        About Page
+                        Marbel - Educational Games
                       </a>
                       <a
-                        href="pricing"
+                        href="/products/Marbel & Friends - Kids Games"
                         class="
                           block
                           text-sm text-body-color
@@ -275,10 +190,10 @@
                           px-4
                         "
                       >
-                        Pricing Page
+                        Marbel & Friends - Kids Games
                       </a>
                       <a
-                        href="contact"
+                        href="/products/Riri-Story Books"
                         class="
                           block
                           text-sm text-body-color
@@ -288,10 +203,10 @@
                           px-4
                         "
                       >
-                        Contact Page
+                        Riri - Story Books
                       </a>
                       <a
-                        href="blog-grids"
+                        href="/products/Kolak-Kids Songs"
                         class="
                           block
                           text-sm text-body-color
@@ -301,10 +216,10 @@
                           px-4
                         "
                       >
-                        Blog Grid Page
+                        Kolak - Kids Songs
                       </a>
                       <a
-                        href="blog-details"
+                        href="/products/Kabi-Islamic Apps"
                         class="
                           block
                           text-sm text-body-color
@@ -314,10 +229,10 @@
                           px-4
                         "
                       >
-                        Blog Details Page
+                        Kabi - Islamic Apps
                       </a>
                       <a
-                        href="signup"
+                        href="/products/Marbel Junior - Merchandise & Licensing"
                         class="
                           block
                           text-sm text-body-color
@@ -327,10 +242,10 @@
                           px-4
                         "
                       >
-                        Sign Up Page
+                        Marbel Junior - Merchandise & Licensing
                       </a>
                       <a
-                        href="signin"
+                        href="/products/Keong Games - Entertainment Games"
                         class="
                           block
                           text-sm text-body-color
@@ -340,22 +255,163 @@
                           px-4
                         "
                       >
-                        Sign In Page
-                      </a>
-                      <a
-                        href="404"
-                        class="
-                          block
-                          text-sm text-body-color
-                          rounded
-                          hover:text-primary
-                          py-[10px]
-                          px-4
-                        "
-                      >
-                        404 Page
+                        Keong Games - Entertainment Games
                       </a>
                     </div>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="/news"
+                      class="
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      "
+                    >
+                      News
+                    </a>
+                  </li>
+                  <li class="relative group submenu-item">
+                    <a
+                      href="javascript:void(0)"
+                      class="
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:pl-0 lg:pr-4
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-8
+                        xl:ml-12
+                        relative
+                        after:absolute
+                        after:w-2
+                        after:h-2
+                        after:border-b-2
+                        after:border-r-2
+                        after:border-current
+                        after:rotate-45
+                        lg:after:right-0
+                        after:right-1
+                        after:top-1/2
+                        after:-translate-y-1/2
+                        after:mt-[-2px]
+                      "
+                    >
+                      Program
+                    </a>
+                    <div
+                      class="
+                        submenu
+                        hidden
+                        relative
+                        lg:absolute
+                        w-[250px]
+                        top-full
+                        lg:top-[110%]
+                        left-0
+                        rounded-sm
+                        lg:shadow-lg
+                        p-4
+                        lg:block lg:opacity-0 lg:invisible
+                        group-hover:opacity-100
+                        lg:group-hover:visible lg:group-hover:top-full
+                        bg-white
+                        transition-[top]
+                        duration-300
+                      "
+                    >
+                      <a
+                        href="/program/karir"
+                        class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        "
+                      >
+                        Karir
+                      </a>
+                      <a
+                        href="/program/magang"
+                        class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        "
+                      >
+                        Magang
+                      </a>
+                      <a
+                        href="/program/kunjungan-industri"
+                        class="
+                          block
+                          text-sm text-body-color
+                          rounded
+                          hover:text-primary
+                          py-[10px]
+                          px-4
+                        "
+                      >
+                        Kunjungan Industri
+                      </a>
+                    </div>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="/about"
+                      class="
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      "
+                    >
+                      About Us
+                    </a>
+                  </li>
+                  <li class="relative group">
+                    <a
+                      href="/contact"
+                      class="
+                        text-base text-dark
+                        lg:text-white
+                        lg:group-hover:opacity-70
+                        lg:group-hover:text-white
+                        group-hover:text-primary
+                        py-2
+                        lg:py-6 lg:inline-flex lg:px-0
+                        flex
+                        mx-8
+                        lg:mr-0 lg:ml-7
+                        xl:ml-12
+                      "
+                    >
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -417,7 +473,7 @@
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4">
             <div class="text-center">
-              <h1 class="font-semibold text-white text-4xl">Log In Page</h1>
+              <h1 class="font-semibold text-white text-4xl">Sign Up Page</h1>
             </div>
           </div>
         </div>
@@ -515,10 +571,10 @@
             >
               <div class="mb-10 text-center">
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   class="inline-block max-w-[160px] mx-auto"
                 >
-                    <img src="{{asset('assets/images/logo/logo.svg')}}" alt="logo" />
+                    <img src="{{asset('assets/images/logo/logo.png')}}" alt="logo" />
                 </a>
               </div>
               <form>
@@ -958,7 +1014,7 @@
                 class="inline-block max-w-[160px] mb-6"
               >
                 <img
-                  src="{{asset('assets/images/logo/logo-white.svg')}}"
+                  src="{{asset('assets/images/logo/logo.png')}}"
                   alt="logo"
                   class="max-w-full"
                 />
@@ -1043,7 +1099,7 @@
               <ul>
                 <li>
                   <a
-                    href="/#home"
+                    href="/"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1057,7 +1113,7 @@
                 </li>
                 <li>
                   <a
-                    href="javascript:void(0)"
+                    href="/news"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1066,12 +1122,12 @@
                       mb-2
                     "
                   >
-                    Features
+                    News
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#about"
+                    href="/about"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1080,12 +1136,12 @@
                       mb-2
                     "
                   >
-                    About
+                    About Us
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/#testimonials"
+                    href="/contact"
                     class="
                       inline-block
                       text-base text-[#f3f4fe]
@@ -1094,7 +1150,7 @@
                       mb-2
                     "
                   >
-                    Testimonial
+                    Contact Us
                   </a>
                 </li>
               </ul>
